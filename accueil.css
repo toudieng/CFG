@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, white, lightgrey);
+    color: #333;
+}
+header {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 19px 0px grey;
+    margin-bottom: 20px;
+}
+header img
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+#slogan
+{
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    font-family: algerian;
+    font-weight: bold;
+    height: 60%;
+    text-align: center;
+}
+nav
+{
+    display: inline-block;
+}
+.main-nav 
+{
+    float: right;
+    
+}
+nav ul 
+{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px black dotted;
+}
+#conteneur
+{
+    background-image: url("imain1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 300px;
+    width: 100%;
+}
+section
+{
+    text-align: right;
+    display: block;
+    float: center;
+    margin: auto;
+    padding-top: 5%;
+    height: 320px;
+    overflow: hidden;
+    color: purple;
+}
+h2
+{
+    text-align: center;
+}
+footer
+{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(33, 102, 250);
+    opacity: 0.7;
+}
+#footer
+{
+    display: flex;
+}
+#cn
+{
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+}
+#reseaux
+{
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: underline;
+    float: right;
+}
+#Contactez-nous
+{
+    width: 40%;
+    padding-right: 50px;
+}
+#boost
+{
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#RS
+{
+    text-align: left;
+    margin-left: 28%;
+}
+#RS a
+{
+    display: block;
+}
+#quisommesnous
+{
+    width: 100%;
+    background-color: rgb(69, 2, 123);
+    opacity: 0.7;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+    color: white;
+}
+#quisommesnous h2
+{
+    display: inline;
+    margin: auto;
+}
+#neng
+{
+    display: flex;
+}
+#pourquoinous
+{
+    padding-left: 10px;
+    text-align: center;
+}
+#pourquoinous h1
+{
+    display: inline;
+    border: 1px 0px 1px 1px solid black;
+}
+.prond
+{
+    min-height: 300px;
+    width: 200px;
+    text-align: left;
+    margin-right: 200px;
+}
+#bprond1
+{
+    display: flex;
+    
+}
+#bprond2
+{
+    display: flex;
+    
+}
+.afooter
+{
+    text-decoration: none;
+    color: white;
+}
+#mail1
+{
+    display: flex;
+}
+#mail2
+{
+    display: flex;
+}

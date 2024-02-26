@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="logo">
+        <p id="slogan">SLOGAN</p>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="services.html">Services et réalisations</a></li>
+                <li><a href="espace clients.html">Espace clients</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div id="conteneur">
+            <div id="debrief">
+                <section id="sec1">
+                    <h1>Bienvenu chez Ciss et Frères Groupe</h1>
+                </section>
+                <section id="sec2">
+                    <h1>Ciss et Frères Groupe : Bâtir l’Avenir</h1>
+                    <p>Là où les Fondations Deviennent des Réalisations</p>
+                </section>
+                <section id="sec3">
+                    <h1>Ciss et Frères Groupe</h1>
+                    <p>Là où la Construction Devient une Passion.</p>
+                </section>
+            </div>
+        </div>
+    <script>
+        let i = 0; 
+        const sections = document.querySelectorAll('#debrief section');
+        function toggleSections() {
+            sections.forEach(section => {
+                section.style.display = 'none'; // Masque toutes les sections
+            });
+            sections[i].style.display = 'block'; // Affiche la section actuelle
+            i = (i + 1) % sections.length; // Passe à la section suivante
+        }
+    
+        toggleSections(); // Affiche la première section immédiatement
+        setInterval(toggleSections, 3000); // Alterne toutes les 10 secondes
+    </script>
+    <div id="presentation">
+        <div id="quisommesnous">
+            <h1>Qui sommes-nous ?</h1>
+            <p>Ciss et Frères Groupe incarne l’essence même de la construction. Nous
+                sommes les maîtres d’œuvre qui transforment les plans en réalité, les idées en structures imposantes.
+                Notre équipe de visionnaires, d’ingénieurs et d’artisans travaille en harmonie pour ériger 
+                des édifices qui résistent au temps et qui marquent l’horizon.
+            </p>
+        </div>
+        <h2>Notre Engagement envers l’Excellence</h2>
+        <div id="neng">
+            <div>
+                <h4>Innovation</h4>
+                <p>Nous ne nous contentons pas de suivre les normes, nous les dépassons. Chaque projet est 
+                    une toile vierge sur laquelle nous peignons des solutions novatrices.
+                </p>
+            </div>
+            <div>
+                <h4>Qualité</h4>
+                <p>Nos fondations sont solides, nos finitions impeccables. Chaque brique, chaque poutre est 
+                    minutieusement choisie pour sa durabilité et son esthétique.
+                </p>
+            </div>
+            <div>
+                <h4>Durabilité</h4>
+                <p>Nous construisons pour les générations futures. Nos bâtiments sont conçus pour résister 
+                    aux éléments et pour s’intégrer harmonieusement dans leur environnement.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div id="pourquoinous">
+        <h2>Pourquoi choisir la SBTP</h2>
+        <div id="bprond1">
+            <div class="prond">
+                <h4>L’Art de la Construction</h4>
+                <p>Ciss et Frères Groupe ne se contente pas de bâtir des murs et des toits. Nous sculptons des espaces où les vies
+                    prennent forme, où les idées prennent leur envol. Chaque chantier est une toile vierge, et nous
+                    sommes les artistes qui y insufflent la vie. Imaginez des bâtiments qui racontent des histoires,
+                    des ponts qui tissent des liens entre les générations, des écoles qui forgent l’avenir. C’est
+                    cela, l’art de la construction.
+                </p>
+            </div>
+            <div class="prond">
+                <h4>L’Ingéniosité dans les Détails</h4>
+                <p>Nous sommes des perfectionnistes. Chaque joint, chaque poutre, chaque finition est minutieusement
+                    pensé. Nous ne laissons rien au hasard. Nos structures sont des symphonies d’ingénierie, où cha
+                    que note compte. La STPB, c’est l’harmonie entre la forme et la fonction, entre la beauté et la 
+                    robustesse.
+                </p>
+            </div>
+            <div class="prond">
+                <h4>L’Engagement envers la Durabilité</h4>
+                <p>Nous ne construisons pas seulement pour aujourd’hui, mais pour les générations futures. Nos bâti
+                    ments sont des gardiens du temps, des témoins silencieux des époques qui se succèdent. Nous utili
+                    sons des matériaux durables, des technologies éco-responsables et des pratiques respectueuses de
+                    l’environnement. Parce que la planète est notre plus précieuse fondation.
+                </p>
+            </div>
+        </div>
+        <div id="bprond2">
+            <div class="prond">
+                <h4>L’Équipe qui Fait la Différence</h4>
+                <p>Ciss et Frères Groupe, c’est une famille. Des ingénieurs passionnés, des artisans chevronnés, des rêveurs auda
+                    cieux. Nous sommes plus qu’une entreprise de construction, nous sommes une communauté qui partage
+                    une vision commune : bâtir un monde meilleur. Chaque membre de notre équipe apporte sa pierre à 
+                    l’édifice, et ensemble, nous écrivons l’histoire.
+                </p>
+            </div>
+            <div class="prond">
+                <h4>L’Émotion dans chaque Brique</h4>
+                <p>Chaque projet est une aventure. Chaque chantier est une épopée. Nous ressentons l’excitation du 
+                    premier coup de pioche, la fierté du dernier coup de pinceau. Chaque brique que nous posons est 
+                    imprégnée de notre passion, de notre dévouement. La STPB, c’est l’émotion qui transcende le béton,
+                    qui donne vie aux structures.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <h2>Témoignages clients</h2>
+    <br>
+    <hr>
+    <footer>
+        <p id="cn">Contactez-nous</p>
+        <p id="reseaux">Suivez-nous sur les réseaux sociaux</p>
+        <div id="footer">
+            <div id="Contactez-nous">
+                &#x260E; 33 876 45 76
+                <br>
+                &#x260E; 77 441 47 08
+                <br>
+                &#x260E; 77 820 51 12
+                <br>
+                <div id="mail1">
+                    &#x1F4E7; <a href="mailto:directiongénérale@CFG.com" class="afooter">directiongénérale@CFG.com</a>
+                </div>
+                <div id="mail2">
+                    &#x1F4E7; <a href="mailto:mouhamedcissp@cfg.com" class="afooter">mouhamedcissp@cfg.com</a>
+                </div>
+            </div>
+            <div id="RS">
+                <a href="https://www.instagram.com/cissetfreregroupe?igsh=MW45aHZ4M2E2bm9rbQ%3D%3D&utm_source=qr" class="afooter" target="_blank">Instagram</a>
+                <a href="" class="afooter" target="_blank">Tiktok</a>
+                <a href="" class="afooter" target="_blank">Facebook</a>
+                <a href="" class="afooter" target="_blank">X</a>
+            </div>
+        </div>
+        <p id="boost">Prônez pour CFG</p>
+        <p>&copy; 2024 Ciss et Frères Groupe</p>
+    </footer>
+</body>
+</html>
